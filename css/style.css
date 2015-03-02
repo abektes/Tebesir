@@ -5224,3 +5224,108 @@ border-radius: 5px;
 .select-course > .row { margin-left:-5px;  margin-right:-5px; }
 .select-course > .row > [class*='col-']{ padding-left:5px; padding-right:5px; }
 .select-course span{ line-height:35px; text-align:center; display:block;}
+.panel-heading .nav > li > a{ color:#47596f; padding:0px 5px; font-size:11px;  }
+.panel-heading .nav{ margin-top:-20px; }
+.panel-heading{ padding-bottom:13px; }
+.panel-heading .nav { border-bottom:#e4e4e5 1px solid; max-width:190px; margin:-20px auto 0px;  }
+.panel-heading .nav > li{ display:inline-block; float:none; padding-bottom:5px; }
+.panel-heading .nav > li+ li a{ border-left:1px solid #e4e4e5; }
+.panel-heading .nav > li > a, .panel-heading .nav > li.active > a, .panel-heading .nav > li.active > a:hover, .panel-heading .nav > li.active > a:focus{ border-left-width:1px; }
+.panel-heading .nav > li:first-child.active a{ border-left:none;  }
+.panel-heading .nav > li.active{ border-bottom:2px solid #51c3be; }
+
+.tab-outer {
+max-width: 208px;
+margin: -10px auto 0px;
+border-bottom: 1px solid #CCC;
+padding-bottom: 4px;
+}
+.tab-outer #nav-outer { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: relative; 
+	
+}
+.tab-outer #nav-outer li { 
+	display: inline-block;	
+	padding-right: 10px;
+	margin-right: 6px;
+	border-right: 1px solid #CCC;
+}
+.tab-outer #nav-outer li:nth-child(3){ border-right:none; }
+.tab-outer #nav-outer li:last-child{ padding:0;}
+.tab-outer #nav-outer a { 
+	color: #bbb; 
+	font-size: 11px; 
+	float: none; display:block;
+	padding: 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.tab-outer .active a{ color:#bbb; position:relative; }
+.tab-outer .active a:after{ position:absolute; content:''; height:3px; background:#50c2bd; width:100%; bottom:-7px; left:0px; }
+.tab-outer #nav-outer a:hover { 
+	color: #bbb; 
+}
+.tab-outer #magic-line { 
+	position: absolute;
+	bottom: -5px; 
+	left: 0; 
+	width: 100px; 
+	height: 3px; 
+	background: #50c2bd;
+}
+.tab-outer .ie6 #nav-outer li, .tab-outer  .ie7 #nav-outer li { 
+	display: inline; 
+}
+.tab-outer .ie6 #magic-line {
+	bottom: -3px;
+}
+.panel-tooltips{ float:right; }
+.panel-tooltips {
+float: right;
+margin: 15px 30px;
+color:#50c2bd; 
+}
+.second-nav ul li a{ font-size:11px; position:relative;  }
+.second-nav ul li {
+display: inline-block;
+margin-right: 7px;
+padding-right: 9px;
+border-right: 1px solid #ccc;
+line-height:10px; 
+}
+.second-nav {position: absolute;
+top: 61px;
+text-align: center;
+width: 86%;}
+.second-nav ul{ max-width: 210px; margin:0px auto; border-bottom: 1px solid #CCC; }
+.second-nav ul li:last-child{ border:none; margin:0px; padding:0px; }
+.second-nav ul li.active a:after{ width:100%; height:3px; background:#f4b658; position:absolute; bottom:-4px; left:0px; content:''; }
+a.second-tooltip.tooltips {
+position: absolute;
+top: 4px;
+right: 33px;
+color:#50c2bd;
+}
+.teacher-tab img{ max-width:100%; height:auto; }
+.teacher-tab .nav-tabs>li.active>a, .teacher-tab .nav-tabs>li.active>a:hover, .teacher-tab  .nav-tabs>li.active>a:focus{ border:none; padding:0px; border-bottom:3px solid #fab764; font-weight:bold;  }
+.top-tab {margin-bottom: 6px;}
+.teacher-tab .nav>li>a:hover, .teacher-tab .nav>li>a:focus{ background:none; }
+.teacher-tab .nav-tabs>li a{ padding:0px;  border:none; font-size:10px;  }
+.teacher-tab .nav-tabs>li:last-child{ border:none; padding-right:0px; margin-right:0px; }
+.teacher-tab .nav-tabs>li{ margin-bottom:0px; float:none; display:inline-block; margin-right: 5px; padding-right: 5px;border-right: 1px solid #ccc; }
+.teacher-tab { text-align:center; }
+.teacher-tab .nav-tabs{ text-align:center; display:inline-block; }
+.top-tab .tooltips{ position:absolute; top:0px; right:0px; }
+.bottom-tab .tooltip{ position:absolute; top:0px; right:0px;}
+.top-tab, .bottom-tab{ position:relative; }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{ background:none; }
+.teacher-tab.big {
+text-align: center;
+background: #fff;
+padding: 10px;
+border-radius: 5px;
+}
+.teacher-tab.big .top-tab .tooltips{ right:10px; }
+.teacher-tab .panel-tooltips{ margin:0px; }
