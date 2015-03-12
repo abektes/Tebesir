@@ -5329,3 +5329,27 @@ border-radius: 5px;
 }
 .teacher-tab.big .top-tab .tooltips{ right:10px; }
 .teacher-tab .panel-tooltips{ margin:0px; }
+.topic-heading { background:#F7F7F5; }
+.topic-heading > .row{ margin-right:0px; margin-left:0px; }
+.topic-heading > .row > [class*='col-']{ padding:0px;  }
+.topic-heading h3, .topic-heading p { padding-left:10px; margin:0px; padding:10px;   }
+.topic-heading h3{ padding-bottom:0px; }
+.topic-heading img{ padding-top:15px; max-width:100%; height:auto;  }
+.topic-heading .topic-right{ background:#fff; padding:15px 0px 20px; }
+.videos { margin:10px 0px; }
+.videos .video-title{background:#58c0c1; color:#fff; padding:10px 10px; margin-bottom:10px;  }
+.video-wrap { width:100%; height:auto; }
+.video-wrap img{ max-width:100%; height:auto; }
+.videos .video-list > .row { margin-left:-10px; margin-right:-10px;}
+.videos .video-list > .row > [class*='col-']{ padding-left:10px; padding-right:10px;}
+
+.topic-listing{ margin:10px 0px; }
+.topic-listing .topic-title{background:#58c0c1; color:#fff; padding:10px; margin-bottom:10px;  }
+.topic-desciption { background:#fff; padding:5px 20px 5px 10px;  line-height:30px; margin-bottom:10px;  }
+.topic-desciption a{ color:#797979; }
+.topic-desciption a.btn{ color:#fff; text-transform:uppercase; }
+.topic-listing .left-btn{ margin-left:30px; }
+.topic-panel .no-acc.topics h3{ background:#fff; font-size:16px; }
+.topic-desc {
+margin-bottom: 30px;
+}
